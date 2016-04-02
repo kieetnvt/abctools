@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'utilities/version'
+require 'abctools/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "utilities"
+  spec.name          = "abctools"
   spec.version       = Version::VERSION
   spec.authors       = ["Kiet Nguyen"]
   spec.email         = ["kietdev38@gmail.com"]
-  spec.summary       = %q{Utilities tools for rubyer}
-  spec.description   = %q{Utilities tools for rubyer}
+  spec.summary       = %q{Collection some utilities for rubyer}
+  spec.description   = %q{Collection some utilities for rubyer}
   spec.homepage      = ""
   spec.license       = "MIT"
 

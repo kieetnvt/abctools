@@ -1,4 +1,4 @@
-class Utilities
+class Abctools
   class << self
     def remove_accent(source)
       return "" if !source.is_a?(String) && source.blank?
