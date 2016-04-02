@@ -1,6 +1,10 @@
 # Abctools
 
-TODO: Write a gem description
+Collection of utilites for working with String class in Ruby.
+Such as in this version:
+
+- get right email
+- remove vietnamese accented character to get pretty string with non-accented character
 
 ## Installation
 
@@ -20,7 +24,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# Remove accented character
+Abctools.remove_accent("hếllô evérybóđỳ")
+=> "hello everybody"
+
+# Get right email
+Abctools.right_email("     AwesomeRuby@abc.COM     ")
+=> "awesomeruby@abc.com"
+
+# Check right email
+Abctools.right_email("     AwesomeRuby@noDot     ")
+=> false
+```
 
 ## Contributing
 
