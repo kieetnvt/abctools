@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "abctools"
   spec.version       = Version::VERSION
   spec.authors       = ["Kiet Nguyen"]
-  spec.email         = ["kietdev38@gmail.com"]
+  spec.email         = ["kietnvt.it@gmail.com"]
   spec.summary       = %q{Collection some utilities for rubyer}
   spec.description   = %q{Collection some utilities for rubyer}
   spec.homepage      = ""
