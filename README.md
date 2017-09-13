@@ -26,8 +26,12 @@ Or install it yourself as:
 
 ```ruby
 # Remove accented character
-Abctools.remove_accent("hếllô evérybóđỳ")
-=> "hello everybody"
+Abctools.insensitive_remove_accent("Hồ Chí Minh")
+=> "ho chi minh"
+
+# Remove accented character
+Abctools.sensitive_remove_accent("Hồ Chí Minh")
+=> "Ho Chi Minh"
 
 # Get right email
 Abctools.right_email("     AwesomeRuby@abc.COM     ")
